@@ -77,7 +77,7 @@ By the end of this challenge, you should have 4 routes like this, but _not neces
   root 'places#index'
   get '/places' => 'places#index'
   get '/places/:id' => 'places#show'
-  delete '/places/:id/delete' => 'places#delete'
+  delete '/places/:id' => 'places#delete'
 ```
 
 1. On the `index` page, add a link next to each place that will trigger the `places#delete` action.
